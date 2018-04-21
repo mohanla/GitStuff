@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.268558">
+<testcase classname="Login verification" name="Home page login with Data Table" time="0.260228">
+<system-out><![CDATA[Given User launches browser.................................................passed
+When User clicked on browser icon...........................................passed
+Then Browser is opened......................................................passed
+Given User open Netbanking login page.......................................passed
+When User signup to application.............................................passed
+Then Home page is populated.................................................passed
+And Account details are seen................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login verification" name="Home page login when Parameterized" time="0.007219">
+<system-out><![CDATA[Given User launches browser.................................................passed
+When User clicked on browser icon...........................................passed
+Then Browser is opened......................................................passed
+Given User open Netbanking login page.......................................passed
+When User login to application with Mohan and Pass1.........................passed
+Then Home page is populated.................................................passed
+And Account details are seen................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login verification" name="Home page login when Parameterized 2" time="0.001111">
+<system-out><![CDATA[Given User launches browser.................................................passed
+When User clicked on browser icon...........................................passed
+Then Browser is opened......................................................passed
+Given User open Netbanking login page.......................................passed
+When User login to application with Kumar and Pass2.........................passed
+Then Home page is populated.................................................passed
+And Account details are seen................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

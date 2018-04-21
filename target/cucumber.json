@@ -1,0 +1,411 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 256205048,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "LoginStepDefinition.user_launches_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 603505,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicked on browser icon",
+            "match": {
+              "location": "LoginStepDefinition.user_clicked_on_browser_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81596,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is opened",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Home page login with Data Table",
+        "description": "",
+        "id": "login-verification;home-page-login-with-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 144718,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRegValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 349479,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User open Netbanking login page",
+            "match": {
+              "location": "LoginStepDefinition.user_open_netbanking_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2666509,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User signup to application",
+            "match": {
+              "location": "LoginStepDefinition.user_signup_to_application(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Mohan",
+                  "Kumar",
+                  "mohankumar@abcd.com",
+                  "0435678876"
+                ],
+                "line": 37
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89294,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginStepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88268,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Account details are seen",
+            "match": {
+              "location": "LoginStepDefinition.account_details_are_seen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@Regtest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 137534,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "LoginStepDefinition.user_launches_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317148,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicked on browser icon",
+            "match": {
+              "location": "LoginStepDefinition.user_clicked_on_browser_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110848,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is opened",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Home page login when Parameterized",
+        "description": "",
+        "id": "login-verification;home-page-login-when-parameterized;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 138560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRegValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97506,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User open Netbanking login page",
+            "match": {
+              "location": "LoginStepDefinition.user_open_netbanking_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6028384,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User login to application with Mohan and Pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohan",
+                  "offset": 31
+                },
+                {
+                  "val": "Pass1",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.user_login_to_application_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106742,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginStepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282252,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Account details are seen",
+            "match": {
+              "location": "LoginStepDefinition.account_details_are_seen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@Regtest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178075,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "LoginStepDefinition.user_launches_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130863,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicked on browser icon",
+            "match": {
+              "location": "LoginStepDefinition.user_clicked_on_browser_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74925,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is opened",
+            "match": {
+              "location": "LoginStepDefinition.browser_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Home page login when Parameterized",
+        "description": "",
+        "id": "login-verification;home-page-login-when-parameterized;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 83649,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterRegValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 77490,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User open Netbanking login page",
+            "match": {
+              "location": "LoginStepDefinition.user_open_netbanking_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208866,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User login to application with Kumar and Pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kumar",
+                  "offset": 31
+                },
+                {
+                  "val": "Pass2",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStepDefinition.user_login_to_application_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278659,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Home page is populated",
+            "match": {
+              "location": "LoginStepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78518,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Account details are seen",
+            "match": {
+              "location": "LoginStepDefinition.account_details_are_seen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@Regtest"
+          }
+        ]
+      }
+    ],
+    "name": "Login verification",
+    "description": "",
+    "id": "login-verification",
+    "keyword": "Feature",
+    "uri": "LoginDemo.feature"
+  }
+]
