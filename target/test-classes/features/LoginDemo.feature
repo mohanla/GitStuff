@@ -1,4 +1,4 @@
-Feature: Login verification 
+Feature: Login verification for application 
 
 Background: 
 	Given User launches browser 
@@ -31,6 +31,14 @@ Scenario: Home page login with variables-2
 	
 @Regtest 
 Scenario: Home page login with Data Table 
+
+	Given User open Netbanking login page 
+	When User signup to application 
+		|Mohan|Kumar|mohankumar@abcd.com|0435678876|
+	Then Home page is populated 
+	And Account details are seen 
+	
+Scenario: Home page login from Child2 branch 
 
 	Given User open Netbanking login page 
 	When User signup to application 
