@@ -76,4 +76,9 @@ public class LoginStepDefinition {
 
 	}
 
+	public void childGitStuff() throws Throwable {
+		System.out.println("childGitstuff branch ");
+
+	}
+
 }
