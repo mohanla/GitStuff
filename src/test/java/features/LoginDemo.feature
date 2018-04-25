@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Feature: Login verification for application 
+=======
+Feature: Login verification for application from ChildGitStuff branch 
+>>>>>>> 7d32e8cb3bca9b876d2cd9e241d699e74d30c635
 
 Background: 
 	Given User launches browser 
