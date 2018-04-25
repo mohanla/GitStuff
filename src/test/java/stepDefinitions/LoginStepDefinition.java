@@ -78,6 +78,10 @@ public class LoginStepDefinition {
 
 	public void child2() throws Throwable {
 		System.out.println("child 2 branch changes");
+	}
+
+	public void childGitStuff() throws Throwable {
+		System.out.println("childGitstuff branch ");
 
 	}
 
