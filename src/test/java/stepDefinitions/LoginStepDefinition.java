@@ -70,6 +70,8 @@ public class LoginStepDefinition {
 	@Then("^Browser is opened$")
 	public void browser_is_opened() throws Throwable {
 		System.out.println("Browser opens and can be seen");
+		System.out.println("Browser opened is chrome");
+
 	}
 
 }
