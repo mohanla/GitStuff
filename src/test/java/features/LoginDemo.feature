@@ -1,4 +1,4 @@
-Feature: Login verification 
+Feature: Login verification for application
 
 Background: 
 	Given User launches browser 
