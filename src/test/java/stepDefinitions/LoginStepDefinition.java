@@ -65,6 +65,8 @@ public class LoginStepDefinition {
 	@When("^User clicked on browser icon$")
 	public void user_clicked_on_browser_icon() throws Throwable {
 		System.out.println("User clicks on Browser icon");
+		System.out.println("Click sound is heard");
+
 	}
 
 	@Then("^Browser is opened$")
